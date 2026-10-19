@@ -1,0 +1,22 @@
+FORNO VIVO — projeto conceitual de portfólio
+
+COMO ABRIR
+1. Extraia a pasta do ZIP, se necessário.
+2. Abra o arquivo index.html no Chrome, Edge ou Firefox.
+3. É um site estático: não precisa instalar programas nem executar servidor.
+
+O QUE TEM NO PROJETO
+- Layout responsivo para desktop e celular.
+- Imagens externas (carregam com conexão à internet).
+- Navegação mobile, filtros de cardápio, carrinho ilustrativo e modal de pedido.
+- Animações discretas com suporte a preferência por movimento reduzido.
+
+ANTES DE APRESENTAR COMO PROJETO REAL
+- FORNO VIVO é uma marca fictícia criada para demonstração.
+- Nome, endereço, horário, receitas e preços são ilustrativos.
+- Para ativar o envio do pedido por WhatsApp, abra index.html e localize a linha:
+  const WHATSAPP_NUMBER = "";
+  Coloque o número da pizzaria no formato internacional sem +, espaços ou traços.
+  Exemplo de formato: const WHATSAPP_NUMBER = "5511999999999";
+- As fotos são carregadas de URLs externas do Unsplash; é necessária conexão à internet.
+- Troque as imagens, o cardápio, os preços, endereço e informações pelos dados reais do cliente.
